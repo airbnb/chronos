@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM openjdk:8-jre
 ARG http_proxy
 ENV http_proxy ${http_proxy}
 
